@@ -49,7 +49,9 @@ function Header() {
 				</ul>
 				<ul className='nav-links'>
 					<li className='nav-link'>
-						<div className='profile_display'>Abhishek.US</div>
+						<Link to='/Profile'>
+							<div className='profile_display'>Abhishek.US</div>
+						</Link>
 					</li>
 					<li className='nav-link'>
 						<Link to='/'>+</Link>
