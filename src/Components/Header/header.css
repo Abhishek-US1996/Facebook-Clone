@@ -1,0 +1,36 @@
+.header {
+	background: white;
+	height: 9vh;
+	box-shadow: 0 0 4px 0 grey;
+	align-items: center;
+	display: flex;
+}
+.container_header {
+	width: 97%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar-brand {
+	font-size: 1.8rem;
+	text-decoration: none;
+	color: black;
+	font-weight: 800;
+}
+svg {
+	fill: gray;
+}
+.nav-links {
+	display: flex;
+	list-style: none;
+	text-decoration: none;
+}
+.nav-link {
+	margin: 0px 10px 0px 10px;
+	text-decoration: none;
+}
+.nav-link a {
+	text-decoration: none;
+}
